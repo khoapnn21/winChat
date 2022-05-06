@@ -1,0 +1,10 @@
+#displayMsg {
+    min-height: 300px; 
+    width: 400px;
+    background-color: rgb(221, 200, 200);
+}
+#subDisplayMsg {
+    min-height: 300px; 
+    width: 400px;
+    background-color: rgb(221, 200, 200);
+}
