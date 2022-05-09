@@ -46,7 +46,7 @@ deleteStorage.onclick = function() {
 }
 
 function sendMess(value) {  
-    let newWin = window.open('https://khoapnn21.github.io/winChat', 'index')    
+    let newWin = window.open('https://khoapnn21.github.io/winChat')    
     newWin.postMessage(value, 'https://khoapnn21.github.io/winChat')
 
 }
