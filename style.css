@@ -1,10 +1,13 @@
-#displayMsg {
-    min-height: 300px; 
-    width: 400px;
+#displayMsg,
+#subDisplayMsg {
+    min-height: 400px; 
+    width: 383px;
     background-color: rgb(221, 200, 200);
 }
-#subDisplayMsg {
-    min-height: 300px; 
+
+#screen,
+#subsCreen {
+    height: 300px;
     width: 400px;
-    background-color: rgb(221, 200, 200);
+    overflow-y: scroll;
 }
