@@ -5,10 +5,10 @@ let screen = document.getElementById('screen')
 let submit = document.getElementById('submit')
 let input = document.getElementById('textMess')
 input.focus()
+window.name = 'index'
 let nameWin = window.name
 let deleteStorage = document.getElementById('delete')
 
-console.log('name tab',nameWin)
 
 
 
@@ -48,7 +48,6 @@ function scrollBottom() {
 }
 
 deleteStorage.onclick = function() {
-    console.log('sos',)
     localStorage.clear();
     location.reload()
 }
@@ -59,7 +58,6 @@ function sendMess(value) {
 }
 
 window.addEventListener('message', function(e) {
-    console.log('e.origin',e.origin)
     if(e.origin != 'https://khoapnn21.github.io/winChat') return
     renderMess(e.data, nameWin)
     scrollBottom()
